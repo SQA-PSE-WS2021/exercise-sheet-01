@@ -3,3 +3,5 @@ This is a template for an exercise using the hamster simulator. it contains an e
 # How to use
 * With your favorite IDE / Editor (Eclipse, IntelliJ, VS Code)
 * Via command line: `mvn compile exec:java`
+# WARNING
+This is not finished yet!

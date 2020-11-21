@@ -7,7 +7,7 @@
     <version>1.0.0</version>
 
 	<properties>
-		<hamster.version>2.4</hamster.version>
+		<hamster.version>2.5</hamster.version>
     </properties>
 
 	<repositories>
@@ -35,9 +35,9 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
 				<configuration>
-					<release>14</release>
-					<source>14</source>
-					<target>14</target>
+					<release>15</release>
+					<source>15</source>
+					<target>15</target>
 				</configuration>
             </plugin>
 			<plugin>

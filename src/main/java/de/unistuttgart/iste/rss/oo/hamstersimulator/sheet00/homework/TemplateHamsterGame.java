@@ -1,4 +1,4 @@
-package de.unistuttgart.iste.rss.oo.hamstersimulator.exercise00.homework;
+package de.unistuttgart.iste.rss.oo.hamstersimulator.sheet00.homework;
 
 import de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.SimpleHamsterGame;
 

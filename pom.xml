@@ -44,9 +44,14 @@
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>3.0.0</version>
-				<configuration>
-					<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.exercise00.homework.TemplateHamsterGameApp</mainClass>
-				</configuration>
+				<executions>
+					<execution>
+						<id>TemplateHamsterGameApp</id>
+						<configuration>
+							<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.sheet00.homework.TemplateHamsterGameApp</mainClass>
+						</configuration>
+					</execution>
+				</executions>
 			</plugin>
         </plugins>
     </build>

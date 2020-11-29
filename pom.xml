@@ -7,7 +7,7 @@
     <version>1.0.0</version>
 
 	<properties>
-		<hamster.version>2.5</hamster.version>
+		<hamster.version>3.0</hamster.version>
     </properties>
 
 	<repositories>

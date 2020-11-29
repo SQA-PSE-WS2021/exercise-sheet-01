@@ -7,6 +7,15 @@ import de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.SimpleHamster
  * A template SimpleHamsterGame
  */
 public class TemplateHamsterGame extends SimpleHamsterGame {
+
+    /**
+     * Creates a new TemplateHamsterGame
+     */
+    public TemplateHamsterGame() {
+        this.loadTerritoryFromResourceFile("/territories/territoryExample00.ter");
+        this.displayInNewGameWindow();
+        game.startGame();
+    }
     
     /**
      * Put the hamster code into this method.
@@ -14,10 +23,6 @@ public class TemplateHamsterGame extends SimpleHamsterGame {
      */
     @Override
     protected void run() {
-        this.loadTerritoryFromResourceFile("/territories/territoryExample00.ter");
-        this.displayInNewGameWindow();
-        game.startGame();
-
         // simple example program
         for (int i = 0; i < 4; i++) {
             while (paule.frontIsClear()) {

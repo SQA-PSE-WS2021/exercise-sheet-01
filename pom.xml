@@ -42,12 +42,14 @@
 				<version>3.0.0</version>
 				<executions>
 					<execution>
-						<id>TemplateHamsterGameApp</id>
-						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.oo.hamstersimulator.sheet00.homework.TemplateHamsterGameApp</mainClass>
-						</configuration>
+						<goals>
+							<goal>java</goal>
+						</goals>
 					</execution>
 				</executions>
+				<configuration>
+					<mainClass>de.unistuttgart.iste.sqa.oo.hamstersimulator.sheet00.homework.TemplateHamsterGameApp</mainClass>
+				</configuration>
 			</plugin>
         </plugins>
     </build>

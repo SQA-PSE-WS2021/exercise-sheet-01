@@ -7,19 +7,12 @@
     <version>1.0.0</version>
 
 	<properties>
-		<hamster.version>3.1.8</hamster.version>
+		<hamster.version>4.0.0</hamster.version>
     </properties>
-
-	<repositories>
-		<repository>
-			<id>github-public</id>
-			<url>https://public:&#103;hp_LfzHIcizQisUDCS2QGvFsRa4oA7ZTT43fqM5@maven.pkg.github.com/SQAHamster/plain-java-hamster</url>
-		</repository>
-	</repositories>
 
 	<dependencies>
 		<dependency>
-            <groupId>de.unistuttgart.iste.sqa.oo.hamstersimulator</groupId>
+            <groupId>de.hamstersimulator.objectsfirst</groupId>
             <artifactId>main</artifactId>
             <version>${hamster.version}</version>
         </dependency>

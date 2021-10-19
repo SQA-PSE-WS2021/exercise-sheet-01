@@ -4,21 +4,22 @@ import de.hamstersimulator.objectsfirst.inspector.InspectableSimpleHamsterGame;
 
 
 /**
- * A template SimpleHamsterGame
+ * A simple HamsterGame where paule can walk a path of grains
  */
-public class InspectionHamsterGame extends InspectableSimpleHamsterGame {
+public class FirstHamsterGame extends InspectableSimpleHamsterGame {
 
     /**
-     * Creates a new TemplateHamsterGame
+     * Creates a new FirstHamsterGame
      */
-    public InspectionHamsterGame() {
+    public FirstHamsterGame() {
         this.loadTerritoryFromResourceFile("/territories/territory.ter");
         this.displayInNewGameWindow();
         game.startGame();
     }
     
     /**
-     * TODO
+     * Executed after the game is started.
+     * Can be used to execute hamster commands
      */
     @Override
     protected void run() {

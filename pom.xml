@@ -7,7 +7,7 @@
     <version>1.0.0</version>
 
 	<properties>
-		<hamster.version>4.0.1-SNAPSHOT</hamster.version>
+		<hamster.version>4.1.0</hamster.version>
     </properties>
 
 	<dependencies>
@@ -41,7 +41,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<mainClass>de.unistuttgart.iste.sqa.pse.sheet01.presence.InspectionHamsterGameApp</mainClass>
+					<mainClass>de.unistuttgart.iste.sqa.pse.sheet01.presence.FirstHamsterGameApp</mainClass>
 				</configuration>
 			</plugin>
         </plugins>

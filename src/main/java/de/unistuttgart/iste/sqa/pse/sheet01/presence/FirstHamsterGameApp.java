@@ -1,8 +1,8 @@
 package de.unistuttgart.iste.sqa.pse.sheet01.presence;
 
-public class InspectionHamsterGameApp {
+public class FirstHamsterGameApp {
     public static void main(String[] args) {
-        final InspectionHamsterGame game = new InspectionHamsterGame();
+        final FirstHamsterGame game = new FirstHamsterGame();
         game.doRun();
     }
 }

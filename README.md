@@ -4,7 +4,7 @@
 - Open and run in Eclipse
 - Open and run in IntelliJ
 - Open and run in VSCode
-- Run via Maven:
+- Unsupported: Run via Maven:
   ```sh
   mvn clean compile exec:java
   ```

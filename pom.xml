@@ -4,31 +4,31 @@
 	<groupId>de.unistuttgart.iste.sqa.pse</groupId>
 	<artifactId>sheet01</artifactId>
 	<name>Sheet 01</name>
-    <version>1.0.0</version>
+	<version>1.0.0</version>
 
 	<properties>
-		<hamster.version>4.1.1</hamster.version>
-    </properties>
+		<hamster.version>4.3.4</hamster.version>
+	</properties>
 
 	<dependencies>
 		<dependency>
-            <groupId>de.hamstersimulator.objectsfirst</groupId>
-            <artifactId>inspector</artifactId>
-            <version>${hamster.version}</version>
-        </dependency>
+			<groupId>de.hamstersimulator.objectsfirst</groupId>
+			<artifactId>inspector</artifactId>
+			<version>${hamster.version}</version>
+		</dependency>
 	</dependencies>
 
 	<build>
-        <plugins>
-            <plugin>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
 				<configuration>
 					<release>16</release>
 					<source>16</source>
 					<target>16</target>
 				</configuration>
-            </plugin>
+			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
@@ -44,6 +44,6 @@
 					<mainClass>de.unistuttgart.iste.sqa.pse.sheet01.presence.FirstHamsterGameApp</mainClass>
 				</configuration>
 			</plugin>
-        </plugins>
-    </build>
+		</plugins>
+	</build>
 </project>
